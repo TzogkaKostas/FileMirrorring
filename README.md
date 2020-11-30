@@ -4,6 +4,10 @@ The purpose of this application is to monitor dynamically a hierarchy of files a
 changes, the application updates a copy of the hierarchy in another directory. For this purpose, Linux inotify system call
 interface is used.
 
+# Compilation
+
+make
+
 # Execution 
 
 ./mirr source backup
